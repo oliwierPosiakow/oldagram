@@ -38,9 +38,11 @@ const posts = [
 ]
 const mainEl = document.getElementById("main")
 const likesEl = document.getElementById('likes')
+
 appendMain()
 
 function appendMain(){
+
     for(let i = 0; i<posts.length;i++){
         const htmlStructure = 
         `
@@ -68,5 +70,6 @@ function appendMain(){
         `
         mainEl.innerHTML += htmlStructure
     }
+
     
 }
