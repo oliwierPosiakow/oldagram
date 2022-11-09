@@ -25,15 +25,6 @@ const posts = [
         post: "images/post-ducreux.jpg",
         comment: "gm friends! which coin are YOU stacking up today?? post below and WAGMI!",
         likes: 152
-    },
-    {
-        name: "Oliwier Posiakow",
-        username: "kundexxl",
-        location: "Gdańsk, Poland",
-        avatar: "images/avatar-oliwier.jpg",
-        post: "images/oliwier-post.png",
-        comment: "Thank's for your review!",
-        likes: 420
     }
 ]
 const mainEl = document.getElementById("main")
