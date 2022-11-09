@@ -1,22 +1,33 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-    font-size: 16px;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .container{
-    width: 375px;
+    width: 50vw;
     margin: 0px auto;
+    padding: 0;
 }
 
-/*header styling*/
+/*typography*/
+.user-name,
+.likes,
+.desc-span-nick{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*header*/
 
 header .container{
     top: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 10px 0;
+    border-bottom: 2px solid #E4E4E4;
 }
 
 header{
@@ -28,24 +39,49 @@ header{
 #logo, #user-avatar{
     margin: 0;
 }
+
 #logo{
-    width: 120px;
-    height: 60px;
+    width: 30%;
+    height: 15%;
 }
 
-#user-avatar, .user-info img{
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;  
-    margin: 5px;
+/*post*/
+section .container{
+    border-bottom: 20px solid #E4E4E4;
 }
+#user-avatar, .user-info img{
+    width: 10%;
+    border-radius: 50%;  
+    margin: 6px;
+}
+
 
 .user-info{
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 10px 0;
 }
 .user-info p {
-    font-size: 12px;
     margin: 0;
+}
+
+.image-post{
+    width: inherit;
+}
+
+.interaction-icons{
+    padding: 10px 0;
+}
+
+.interaction-icons img{
+    width: 30px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.likes{
+    margin: 0 5px;
+}
+.desc{
+    margin: 0 0px 5px 5px;
 }
